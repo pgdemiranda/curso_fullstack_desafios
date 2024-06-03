@@ -1,0 +1,22 @@
+<!--
+11 - Suponha que temos a seguinte página HTML.
+Crie um script em JS (no arquivo script.js) que tenha uma função “mudaTexto()”, 
+ela deve ser responsável por mudar o texto do elemento `<h1>` para “Novo Título” quando o botão for clicado.
+Dica: para selecionar o elemento você pode utilizar `document.getElementById(“id-do-elemento”)`. 
+Com esse elemento selecionado, você pode mudar o texto: `variavelQueSelecionouOElemento.innerText = “Novo Título”`.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Lorem Ipsum</h1>
+    <p id="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <button id="botao", onclick="mudaTexto()">clique Aqui</button>
+    <script src="./script.js"></script>
+</body>
+</html>
