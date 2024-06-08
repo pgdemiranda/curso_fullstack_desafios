@@ -101,9 +101,7 @@ const numeros = Array.from({ length: 100 }, (_, index) => index + 1);
 
 33 - Crie um script que declare um array de objetos, onde cada objeto representa um aluno e possui as propriedades `nome`, `idade` e `notas` (um array de números). Utilize a função `filter()` para criar um novo array contendo apenas os alunos com idade maior ou igual a 18 anos. Imprima o novo array.
 
-34 - Crie um script que declare um array de objetos, onde cada objeto representa um aluno e possui as propriedades `nome`, `idade` e `notas` (um array de números). Utilize a função `reduce()` para calcular a média das idades dos alunos.
-
- Imprima o resultado.
+34 - Crie um script que declare um array de objetos, onde cada objeto representa um aluno e possui as propriedades `nome`, `idade` e `notas` (um array de números). Utilize a função `reduce()` para calcular a média das idades dos alunos. Imprima o resultado.
 
 35 - Crie um script que declare uma função que receba um array de números como parâmetro e retorne um novo array onde cada número seja decrementado em 1.
 
